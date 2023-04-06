@@ -359,35 +359,35 @@ nnoremap <silent> <Plug>MarkSearchGroupPrev   :<C-u>call mark#SearchGroupMark(v:
 
 
 if !hasmapto('<Plug>MarkSet', 'n')
-	nmap <unique> <Leader>m <Plug>MarkSet
+	nmap <unique> <Leader>mm <Plug>MarkSet
 endif
 if !hasmapto('<Plug>MarkSet', 'x')
-	xmap <unique> <Leader>m <Plug>MarkSet
+	xmap <unique> <Leader>mm <Plug>MarkSet
 endif
 " No default mapping for <Plug>MarkIWhiteSet.
 if !hasmapto('<Plug>MarkRegex', 'n')
-	nmap <unique> <Leader>r <Plug>MarkRegex
+	nmap <unique> <Leader>mr <Plug>MarkRegex
 endif
 if !hasmapto('<Plug>MarkRegex', 'x')
-	xmap <unique> <Leader>r <Plug>MarkRegex
+	xmap <unique> <Leader>mr <Plug>MarkRegex
 endif
 if !hasmapto('<Plug>MarkClear', 'n')
-	nmap <unique> <Leader>n <Plug>MarkClear
+	nmap <unique> <Leader>mn <Plug>MarkClear
 endif
 " No default mapping for <Plug>MarkAllClear.
 " No default mapping for <Plug>MarkToggle.
 
 if !hasmapto('<Plug>MarkSearchCurrentNext', 'n')
-	nmap <unique> <Leader>* <Plug>MarkSearchCurrentNext
+	nmap <unique> <Leader>m* <Plug>MarkSearchCurrentNext
 endif
 if !hasmapto('<Plug>MarkSearchCurrentPrev', 'n')
-	nmap <unique> <Leader># <Plug>MarkSearchCurrentPrev
+	nmap <unique> <Leader>m# <Plug>MarkSearchCurrentPrev
 endif
 if !hasmapto('<Plug>MarkSearchAnyNext', 'n')
-	nmap <unique> <Leader>/ <Plug>MarkSearchAnyNext
+	nmap <unique> <Leader>m/ <Plug>MarkSearchAnyNext
 endif
 if !hasmapto('<Plug>MarkSearchAnyPrev', 'n')
-	nmap <unique> <Leader>? <Plug>MarkSearchAnyPrev
+	nmap <unique> <Leader>m? <Plug>MarkSearchAnyPrev
 endif
 if !hasmapto('<Plug>MarkSearchNext', 'n')
 	nmap <unique> * <Plug>MarkSearchNext
